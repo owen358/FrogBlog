@@ -84,8 +84,9 @@ test:
 production:
   <<: *default
   database: FrogBlog_production
-  username: FrogBlog
-  password: post#<%= ENV['postgresql'] %>
+  username: postgres
+  password: postgresql
+#  password: post#<%= ENV['postgresql'] %>
 
 
 
