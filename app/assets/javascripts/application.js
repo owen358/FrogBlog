@@ -20,10 +20,13 @@
 //= require_tree .
 
 document.addEventListener("turbolinks:load", function() {
+  console.log('Before tinymce remove')
   tinymce.remove();
+  console.log('Before tinymce init')
   tinymce.init({
     height: '500',
     selector:'textarea#post_body',
     plugins: "image media link code",
     });
+    console.log('After tinymce init')
 })
