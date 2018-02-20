@@ -21,4 +21,9 @@
 
 document.addEventListener("turbolinks:load", function() {
   tinymce.remove();
-  tinymce.init({ selector:'textarea' });
+  tinymce.init({
+    height: '500',
+    selector:'textarea#post_body',
+    plugins: "image media link code",
+    });
+})
