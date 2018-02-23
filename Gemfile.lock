@@ -195,6 +195,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   pg (= 0.20.0)
+  popper_js (~> 1.12.9)
   pry-rails
   puma (~> 3.0)
   rails (~> 5.0.6)
