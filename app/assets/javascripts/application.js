@@ -28,5 +28,5 @@ document.addEventListener("turbolinks:load", function() {
     selector:'textarea#post_body',
     plugins: "image media link code",
     });
-    console.log('After tinymce init')
+  console.log('After tinymce init')
 })
